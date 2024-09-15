@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: rgba(0, 140, 255, 0.772);
+    margin: 0px 100px;
+}
+
+.container {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.player-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 20px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.human,
+.computer {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    text-align: center;
+    font-size: 50px;
+}
+
+.header,
+.score {
+    justify-content: center;
+}
